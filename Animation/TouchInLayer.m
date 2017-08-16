@@ -26,6 +26,9 @@
     [self.view addSubview:self.Vgreen];
     self.Vgreen.backgroundColor = [UIColor greenColor];
     
+//    self.Vgreen.layer.contentsGravity = kCAGravityCenter;
+//    self.Vgreen.layer.contentsScale
+    // 新建一个红色的图层
     self.layRed = [CALayer layer];
     self.layRed.frame = CGRectMake(40, 40, 80, 80);
     [self.Vgreen.layer addSublayer:self.layRed];
@@ -49,6 +52,8 @@
         [[[UIAlertView alloc] initWithTitle:@"提示" message:@"没有点到任何控件上" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil] show];
 
     }
+    
+    
     
 }
 

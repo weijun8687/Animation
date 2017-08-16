@@ -50,6 +50,8 @@
     self.ivHour.transform = CGAffineTransformMakeRotation(hoursAngle);
     self.ivMinute.transform = CGAffineTransformMakeRotation(minuteAngle);
     self.ivSecound.transform = CGAffineTransformMakeRotation(secondAngle);
+    
+//    CGAffineTransformRotate(<#CGAffineTransform t#>, <#CGFloat angle#>)
 }
 
 

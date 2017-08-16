@@ -15,6 +15,11 @@
 		373092C61DD5A46800937485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373092C41DD5A46800937485 /* LaunchScreen.storyboard */; };
 		373092D11DD5A46800937485 /* AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092D01DD5A46800937485 /* AnimationTests.m */; };
 		373092DC1DD5A46800937485 /* AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092DB1DD5A46800937485 /* AnimationUITests.m */; };
+		37583DA01F44302400AFF8B3 /* 3DTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D971F44302400AFF8B3 /* 3DTransform.m */; };
+		37583DA11F44302400AFF8B3 /* Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D991F44302400AFF8B3 /* Shadow.m */; };
+		37583DA21F44302400AFF8B3 /* ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D9B1F44302400AFF8B3 /* ShadowPath.m */; };
+		37583DA31F44302400AFF8B3 /* TransformLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D9D1F44302400AFF8B3 /* TransformLight.m */; };
+		37583DA41F44302400AFF8B3 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D9F1F44302400AFF8B3 /* TransformViewController.m */; };
 		379D0D721DE149B600175BEF /* ZPositionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 379D0D711DE149B600175BEF /* ZPositionVC.m */; };
 		379D0D751DE1682400175BEF /* TouchInLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 379D0D741DE1682400175BEF /* TouchInLayer.m */; };
 /* End PBXBuildFile section */
@@ -53,6 +58,16 @@
 		373092D71DD5A46800937485 /* AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		373092DB1DD5A46800937485 /* AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationUITests.m; sourceTree = "<group>"; };
 		373092DD1DD5A46800937485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37583D961F44302400AFF8B3 /* 3DTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3DTransform.h; sourceTree = "<group>"; };
+		37583D971F44302400AFF8B3 /* 3DTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 3DTransform.m; sourceTree = "<group>"; };
+		37583D981F44302400AFF8B3 /* Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shadow.h; sourceTree = "<group>"; };
+		37583D991F44302400AFF8B3 /* Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shadow.m; sourceTree = "<group>"; };
+		37583D9A1F44302400AFF8B3 /* ShadowPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowPath.h; sourceTree = "<group>"; };
+		37583D9B1F44302400AFF8B3 /* ShadowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowPath.m; sourceTree = "<group>"; };
+		37583D9C1F44302400AFF8B3 /* TransformLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformLight.h; sourceTree = "<group>"; };
+		37583D9D1F44302400AFF8B3 /* TransformLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformLight.m; sourceTree = "<group>"; };
+		37583D9E1F44302400AFF8B3 /* TransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		37583D9F1F44302400AFF8B3 /* TransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
 		379D0D701DE149B600175BEF /* ZPositionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPositionVC.h; sourceTree = "<group>"; };
 		379D0D711DE149B600175BEF /* ZPositionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPositionVC.m; sourceTree = "<group>"; };
 		379D0D731DE1682400175BEF /* TouchInLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchInLayer.h; sourceTree = "<group>"; };
@@ -107,6 +122,16 @@
 		373092B51DD5A46800937485 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				37583D961F44302400AFF8B3 /* 3DTransform.h */,
+				37583D971F44302400AFF8B3 /* 3DTransform.m */,
+				37583D981F44302400AFF8B3 /* Shadow.h */,
+				37583D991F44302400AFF8B3 /* Shadow.m */,
+				37583D9A1F44302400AFF8B3 /* ShadowPath.h */,
+				37583D9B1F44302400AFF8B3 /* ShadowPath.m */,
+				37583D9C1F44302400AFF8B3 /* TransformLight.h */,
+				37583D9D1F44302400AFF8B3 /* TransformLight.m */,
+				37583D9E1F44302400AFF8B3 /* TransformViewController.h */,
+				37583D9F1F44302400AFF8B3 /* TransformViewController.m */,
 				373092B91DD5A46800937485 /* AppDelegate.h */,
 				373092BA1DD5A46800937485 /* AppDelegate.m */,
 				373092BC1DD5A46800937485 /* ViewController.h */,
@@ -286,11 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37583DA11F44302400AFF8B3 /* Shadow.m in Sources */,
 				379D0D721DE149B600175BEF /* ZPositionVC.m in Sources */,
+				37583DA21F44302400AFF8B3 /* ShadowPath.m in Sources */,
 				379D0D751DE1682400175BEF /* TouchInLayer.m in Sources */,
 				373092BE1DD5A46800937485 /* ViewController.m in Sources */,
+				37583DA41F44302400AFF8B3 /* TransformViewController.m in Sources */,
+				37583DA01F44302400AFF8B3 /* 3DTransform.m in Sources */,
 				373092BB1DD5A46800937485 /* AppDelegate.m in Sources */,
 				373092B81DD5A46800937485 /* main.m in Sources */,
+				37583DA31F44302400AFF8B3 /* TransformLight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
