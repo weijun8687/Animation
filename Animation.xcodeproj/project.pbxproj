@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37063CF81F4C263900A92CD3 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063CF71F4C263900A92CD3 /* DrawingViewController.m */; };
 		373092B81DD5A46800937485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092B71DD5A46800937485 /* main.m */; };
 		373092BB1DD5A46800937485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092BA1DD5A46800937485 /* AppDelegate.m */; };
 		373092BE1DD5A46800937485 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092BD1DD5A46800937485 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37063CF61F4C263900A92CD3 /* DrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		37063CF71F4C263900A92CD3 /* DrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
 		373092B31DD5A46800937485 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373092B71DD5A46800937485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		373092B91DD5A46800937485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 		373092B51DD5A46800937485 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				373092B91DD5A46800937485 /* AppDelegate.h */,
+				373092BA1DD5A46800937485 /* AppDelegate.m */,
 				37583D961F44302400AFF8B3 /* 3DTransform.h */,
 				37583D971F44302400AFF8B3 /* 3DTransform.m */,
 				37583D981F44302400AFF8B3 /* Shadow.h */,
@@ -132,14 +137,14 @@
 				37583D9D1F44302400AFF8B3 /* TransformLight.m */,
 				37583D9E1F44302400AFF8B3 /* TransformViewController.h */,
 				37583D9F1F44302400AFF8B3 /* TransformViewController.m */,
-				373092B91DD5A46800937485 /* AppDelegate.h */,
-				373092BA1DD5A46800937485 /* AppDelegate.m */,
 				373092BC1DD5A46800937485 /* ViewController.h */,
 				373092BD1DD5A46800937485 /* ViewController.m */,
 				379D0D701DE149B600175BEF /* ZPositionVC.h */,
 				379D0D711DE149B600175BEF /* ZPositionVC.m */,
 				379D0D731DE1682400175BEF /* TouchInLayer.h */,
 				379D0D741DE1682400175BEF /* TouchInLayer.m */,
+				37063CF61F4C263900A92CD3 /* DrawingViewController.h */,
+				37063CF71F4C263900A92CD3 /* DrawingViewController.m */,
 				373092BF1DD5A46800937485 /* Main.storyboard */,
 				373092C21DD5A46800937485 /* Assets.xcassets */,
 				373092C41DD5A46800937485 /* LaunchScreen.storyboard */,
@@ -315,6 +320,7 @@
 				379D0D721DE149B600175BEF /* ZPositionVC.m in Sources */,
 				37583DA21F44302400AFF8B3 /* ShadowPath.m in Sources */,
 				379D0D751DE1682400175BEF /* TouchInLayer.m in Sources */,
+				37063CF81F4C263900A92CD3 /* DrawingViewController.m in Sources */,
 				373092BE1DD5A46800937485 /* ViewController.m in Sources */,
 				37583DA41F44302400AFF8B3 /* TransformViewController.m in Sources */,
 				37583DA01F44302400AFF8B3 /* 3DTransform.m in Sources */,

@@ -23,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor lightGrayColor];
     
     [self createCube];
     
@@ -38,9 +39,9 @@
         CGSize size = self.view.bounds.size;
         
         v.center = CGPointMake(size.width / 2.0, size.height/2.0);
-        random();
+//        v.backgroundColor = [UIColor colorWithRed:(arc4random_uniform(255) / 255.0) green:(arc4random_uniform(255) / 255.0) blue:(arc4random_uniform(255) / 255.0) alpha:1.0];
         
-        v.backgroundColor = [UIColor colorWithRed:(arc4random_uniform(255) / 255.0) green:(arc4random_uniform(255) / 255.0) blue:(arc4random_uniform(255) / 255.0) alpha:1.0];
+        v.backgroundColor = [UIColor whiteColor];
         
         UILabel *lb = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 30, 20)];
         [v addSubview:lb];
@@ -96,20 +97,30 @@
     CATransform3D transform = face.transform;
     // 将 CATransform3D 转换成 GLKMatrix4
     GLKMatrix4 matrix4 = *(GLKMatrix4 *)&transform;
-    
     //将 GLKMatrix4 转换成 GLKMatrix3
     GLKMatrix3 matrix3 = GLKMatrix4GetMatrix3(matrix4);
     
     GLKVector3 normal = GLKVector3Make(0, 0, 1);
-//    normal = glk
     
+    normal = GLKMatrix3MultiplyVector3(matrix3, normal);
+    normal = GLKVector3Normalize(normal);
+    GLKVector3 light = GLKVector3Normalize(GLKVector3Make(LIGHT_GIRECTION));
+    float dotProduct = GLKVector3DotProduct(light, normal);
     
+    CGFloat shadow = 1 + dotProduct - AMBIENT_LIGHT;
+    UIColor *color = [UIColor colorWithWhite:0 alpha:shadow];
+    layer.backgroundColor = color.CGColor;
     
 }
 
 - (void)addFace:(NSInteger)index withTransform:(CATransform3D)transform{
-    UIView *tempV = self.arr[index];
-    tempV.layer.transform = transform;
+    UIView *face = self.arr[index];
+//    [self.view addSubview:face];
+//    
+//    CGSize containerSize = self.view.bounds.size;
+//    face.center = CGPointMake(containerSize.width / 2.0, containerSize.height / 2.0);
+    face.layer.transform = transform;
+    [self applyLightingToFace:face.layer];
 }
 
 - (NSMutableArray *)arr{

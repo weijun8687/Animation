@@ -15,6 +15,7 @@
 #import "TransformViewController.h"
 #import "3DTransform.h"
 #import "TransformLight.h"
+#import "DrawingViewController.h"
 
 @interface AppDelegate ()
 
@@ -29,7 +30,7 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [TransformLight new];
+    self.window.rootViewController = [DrawingViewController new];
     [self.window makeKeyAndVisible];
     
     
