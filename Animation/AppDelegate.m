@@ -8,14 +8,19 @@
 
 #import "AppDelegate.h"
 
-#import "ZPositionVC.h"
-#import "TouchInLayer.h"
-#import "Shadow.h"
-#import "ShadowPath.h"
-#import "TransformViewController.h"
-#import "3DTransform.h"
-#import "TransformLight.h"
-#import "DrawingViewController.h"
+#import "ViewController.h"  // 钟表
+#import "ZPositionVC.h"     // 
+#import "TouchInLayer.h"    // 判断点击的layer
+#import "Shadow.h"      // 阴影
+#import "ShadowPath.h"  // 阴影
+#import "TransformViewController.h" // 旋转
+#import "3DTransform.h"     // 旋转正方体
+#import "TransformLight.h"      // 有明暗度的正方体(没实现)
+#import "DrawingViewController.h"   // 画小人 / 一个直角的正方形
+#import "TransformLayerVC.h"    // 旋转正方体
+#import "GradientLayrVC.h"      // 颜色渐变
+#import "ReplicatorLayerVC.h"   // 复用layer
+#import "EmitterLayerVC.h"
 
 @interface AppDelegate ()
 
@@ -30,7 +35,7 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [DrawingViewController new];
+    self.window.rootViewController = [EmitterLayerVC new];
     [self.window makeKeyAndVisible];
     
     

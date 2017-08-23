@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		37063CF81F4C263900A92CD3 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063CF71F4C263900A92CD3 /* DrawingViewController.m */; };
+		37063CFB1F4D533300A92CD3 /* TransformLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063CFA1F4D533300A92CD3 /* TransformLayerVC.m */; };
+		37063CFE1F4D5A7C00A92CD3 /* GradientLayrVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063CFD1F4D5A7C00A92CD3 /* GradientLayrVC.m */; };
+		37063D011F4D64E400A92CD3 /* ReplicatorLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D001F4D64E400A92CD3 /* ReplicatorLayerVC.m */; };
+		37063D041F4D75BA00A92CD3 /* TiledLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D031F4D75BA00A92CD3 /* TiledLayerVC.m */; };
+		37063D071F4D7CE300A92CD3 /* EmitterLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D061F4D7CE300A92CD3 /* EmitterLayerVC.m */; };
 		373092B81DD5A46800937485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092B71DD5A46800937485 /* main.m */; };
 		373092BB1DD5A46800937485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092BA1DD5A46800937485 /* AppDelegate.m */; };
 		373092BE1DD5A46800937485 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092BD1DD5A46800937485 /* ViewController.m */; };
@@ -45,6 +50,16 @@
 /* Begin PBXFileReference section */
 		37063CF61F4C263900A92CD3 /* DrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
 		37063CF71F4C263900A92CD3 /* DrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		37063CF91F4D533300A92CD3 /* TransformLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformLayerVC.h; sourceTree = "<group>"; };
+		37063CFA1F4D533300A92CD3 /* TransformLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformLayerVC.m; sourceTree = "<group>"; };
+		37063CFC1F4D5A7C00A92CD3 /* GradientLayrVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLayrVC.h; sourceTree = "<group>"; };
+		37063CFD1F4D5A7C00A92CD3 /* GradientLayrVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLayrVC.m; sourceTree = "<group>"; };
+		37063CFF1F4D64E400A92CD3 /* ReplicatorLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerVC.h; sourceTree = "<group>"; };
+		37063D001F4D64E400A92CD3 /* ReplicatorLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerVC.m; sourceTree = "<group>"; };
+		37063D021F4D75BA00A92CD3 /* TiledLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledLayerVC.h; sourceTree = "<group>"; };
+		37063D031F4D75BA00A92CD3 /* TiledLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledLayerVC.m; sourceTree = "<group>"; };
+		37063D051F4D7CE300A92CD3 /* EmitterLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerVC.h; sourceTree = "<group>"; };
+		37063D061F4D7CE300A92CD3 /* EmitterLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerVC.m; sourceTree = "<group>"; };
 		373092B31DD5A46800937485 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373092B71DD5A46800937485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		373092B91DD5A46800937485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -145,6 +160,16 @@
 				379D0D741DE1682400175BEF /* TouchInLayer.m */,
 				37063CF61F4C263900A92CD3 /* DrawingViewController.h */,
 				37063CF71F4C263900A92CD3 /* DrawingViewController.m */,
+				37063CF91F4D533300A92CD3 /* TransformLayerVC.h */,
+				37063CFA1F4D533300A92CD3 /* TransformLayerVC.m */,
+				37063CFC1F4D5A7C00A92CD3 /* GradientLayrVC.h */,
+				37063CFD1F4D5A7C00A92CD3 /* GradientLayrVC.m */,
+				37063CFF1F4D64E400A92CD3 /* ReplicatorLayerVC.h */,
+				37063D001F4D64E400A92CD3 /* ReplicatorLayerVC.m */,
+				37063D021F4D75BA00A92CD3 /* TiledLayerVC.h */,
+				37063D031F4D75BA00A92CD3 /* TiledLayerVC.m */,
+				37063D051F4D7CE300A92CD3 /* EmitterLayerVC.h */,
+				37063D061F4D7CE300A92CD3 /* EmitterLayerVC.m */,
 				373092BF1DD5A46800937485 /* Main.storyboard */,
 				373092C21DD5A46800937485 /* Assets.xcassets */,
 				373092C41DD5A46800937485 /* LaunchScreen.storyboard */,
@@ -318,15 +343,20 @@
 			files = (
 				37583DA11F44302400AFF8B3 /* Shadow.m in Sources */,
 				379D0D721DE149B600175BEF /* ZPositionVC.m in Sources */,
+				37063CFE1F4D5A7C00A92CD3 /* GradientLayrVC.m in Sources */,
 				37583DA21F44302400AFF8B3 /* ShadowPath.m in Sources */,
 				379D0D751DE1682400175BEF /* TouchInLayer.m in Sources */,
+				37063D011F4D64E400A92CD3 /* ReplicatorLayerVC.m in Sources */,
 				37063CF81F4C263900A92CD3 /* DrawingViewController.m in Sources */,
 				373092BE1DD5A46800937485 /* ViewController.m in Sources */,
 				37583DA41F44302400AFF8B3 /* TransformViewController.m in Sources */,
 				37583DA01F44302400AFF8B3 /* 3DTransform.m in Sources */,
+				37063D041F4D75BA00A92CD3 /* TiledLayerVC.m in Sources */,
+				37063D071F4D7CE300A92CD3 /* EmitterLayerVC.m in Sources */,
 				373092BB1DD5A46800937485 /* AppDelegate.m in Sources */,
 				373092B81DD5A46800937485 /* main.m in Sources */,
 				37583DA31F44302400AFF8B3 /* TransformLight.m in Sources */,
+				37063CFB1F4D533300A92CD3 /* TransformLayerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
