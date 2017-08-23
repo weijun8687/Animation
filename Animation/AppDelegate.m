@@ -21,6 +21,7 @@
 #import "GradientLayrVC.h"      // 颜色渐变
 #import "ReplicatorLayerVC.h"   // 复用layer
 #import "EmitterLayerVC.h"
+#import "EaglLayerVC.h"
 
 @interface AppDelegate ()
 
@@ -35,7 +36,7 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [EmitterLayerVC new];
+    self.window.rootViewController = [EaglLayerVC new];
     [self.window makeKeyAndVisible];
     
     
