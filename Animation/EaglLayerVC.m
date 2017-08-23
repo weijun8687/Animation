@@ -12,7 +12,7 @@
 
 @interface EaglLayerVC ()
 
-//@property (nonatomic, weak) UIView *glView;
+@property (nonatomic, strong) UIView *glView;
 @property (nonatomic, strong) EAGLContext *glContext;
 @property (nonatomic, strong) CAEAGLLayer *glLayer;
 @property (nonatomic, assign) GLuint framebuffer;
@@ -29,15 +29,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-//    self.glView
+    self.glView  = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+    [self.view addSubview:self.glView];
     
     self.glContext = [[EAGLContext alloc] initWithAPI: kEAGLRenderingAPIOpenGLES2];
     [EAGLContext setCurrentContext:self.glContext];
     
     //set up layer
     self.glLayer = [CAEAGLLayer layer];
-    self.glLayer.frame = self.view.bounds;
-    [self.view.layer addSublayer:self.glLayer];
+    self.glLayer.frame = self.glView.bounds;
+    [self.glView.layer addSublayer:self.glLayer];
     
     self.glLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking:@NO, kEAGLDrawablePropertyColorFormat: kEAGLColorFormatRGBA8};
     
