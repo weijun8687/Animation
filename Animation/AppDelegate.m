@@ -23,6 +23,7 @@
 #import "EmitterLayerVC.h"
 #import "EaglLayerVC.h"
 #import "AVplayerLayerVC.h"
+#import "TransactionVC.h"
 
 @interface AppDelegate ()
 
@@ -37,7 +38,7 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [AVplayerLayerVC new];
+    self.window.rootViewController = [TransactionVC new];
     [self.window makeKeyAndVisible];
     
     

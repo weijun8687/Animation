@@ -199,10 +199,10 @@
 		373092B51DD5A46800937485 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				37063D211F4EB81A00A92CD3 /* LayerVC */,
-				37063D1D1F4EB80C00A92CD3 /* Animation */,
 				373092B91DD5A46800937485 /* AppDelegate.h */,
 				373092BA1DD5A46800937485 /* AppDelegate.m */,
+				37063D211F4EB81A00A92CD3 /* LayerVC */,
+				37063D1D1F4EB80C00A92CD3 /* Animation */,
 				37063D0E1F4E75F300A92CD3 /* shipin1.mp4 */,
 				373092BF1DD5A46800937485 /* Main.storyboard */,
 				373092C21DD5A46800937485 /* Assets.xcassets */,
