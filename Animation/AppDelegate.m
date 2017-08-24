@@ -22,6 +22,7 @@
 #import "ReplicatorLayerVC.h"   // 复用layer
 #import "EmitterLayerVC.h"
 #import "EaglLayerVC.h"
+#import "AVplayerLayerVC.h"
 
 @interface AppDelegate ()
 
@@ -36,7 +37,7 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [EaglLayerVC new];
+    self.window.rootViewController = [AVplayerLayerVC new];
     [self.window makeKeyAndVisible];
     
     

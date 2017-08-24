@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37063CF81F4C263900A92CD3 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063CF71F4C263900A92CD3 /* DrawingViewController.m */; };
-		37063CFB1F4D533300A92CD3 /* TransformLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063CFA1F4D533300A92CD3 /* TransformLayerVC.m */; };
-		37063CFE1F4D5A7C00A92CD3 /* GradientLayrVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063CFD1F4D5A7C00A92CD3 /* GradientLayrVC.m */; };
-		37063D011F4D64E400A92CD3 /* ReplicatorLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D001F4D64E400A92CD3 /* ReplicatorLayerVC.m */; };
-		37063D041F4D75BA00A92CD3 /* TiledLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D031F4D75BA00A92CD3 /* TiledLayerVC.m */; };
-		37063D071F4D7CE300A92CD3 /* EmitterLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D061F4D7CE300A92CD3 /* EmitterLayerVC.m */; };
-		37063D0A1F4D9EF000A92CD3 /* EaglLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D091F4D9EF000A92CD3 /* EaglLayerVC.m */; };
+		37063D0F1F4E795C00A92CD3 /* shipin1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37063D0E1F4E75F300A92CD3 /* shipin1.mp4 */; };
+		37063D201F4EB80C00A92CD3 /* TransactionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D1F1F4EB80C00A92CD3 /* TransactionVC.m */; };
+		37063D421F4EB81A00A92CD3 /* 3DTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D231F4EB81A00A92CD3 /* 3DTransform.m */; };
+		37063D431F4EB81A00A92CD3 /* AVplayerLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D251F4EB81A00A92CD3 /* AVplayerLayerVC.m */; };
+		37063D441F4EB81A00A92CD3 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D271F4EB81A00A92CD3 /* DrawingViewController.m */; };
+		37063D451F4EB81A00A92CD3 /* EaglLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D291F4EB81A00A92CD3 /* EaglLayerVC.m */; };
+		37063D461F4EB81A00A92CD3 /* EmitterLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D2B1F4EB81A00A92CD3 /* EmitterLayerVC.m */; };
+		37063D471F4EB81A00A92CD3 /* GradientLayrVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D2D1F4EB81A00A92CD3 /* GradientLayrVC.m */; };
+		37063D481F4EB81A00A92CD3 /* ReplicatorLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D2F1F4EB81A00A92CD3 /* ReplicatorLayerVC.m */; };
+		37063D491F4EB81A00A92CD3 /* Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D311F4EB81A00A92CD3 /* Shadow.m */; };
+		37063D4A1F4EB81A00A92CD3 /* ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D331F4EB81A00A92CD3 /* ShadowPath.m */; };
+		37063D4B1F4EB81A00A92CD3 /* TiledLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D351F4EB81A00A92CD3 /* TiledLayerVC.m */; };
+		37063D4C1F4EB81A00A92CD3 /* TouchInLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D371F4EB81A00A92CD3 /* TouchInLayer.m */; };
+		37063D4D1F4EB81A00A92CD3 /* TransformLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D391F4EB81A00A92CD3 /* TransformLayerVC.m */; };
+		37063D4E1F4EB81A00A92CD3 /* TransformLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D3B1F4EB81A00A92CD3 /* TransformLight.m */; };
+		37063D4F1F4EB81A00A92CD3 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D3D1F4EB81A00A92CD3 /* TransformViewController.m */; };
+		37063D501F4EB81A00A92CD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D3F1F4EB81A00A92CD3 /* ViewController.m */; };
+		37063D511F4EB81A00A92CD3 /* ZPositionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D411F4EB81A00A92CD3 /* ZPositionVC.m */; };
 		373092B81DD5A46800937485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092B71DD5A46800937485 /* main.m */; };
 		373092BB1DD5A46800937485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092BA1DD5A46800937485 /* AppDelegate.m */; };
-		373092BE1DD5A46800937485 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092BD1DD5A46800937485 /* ViewController.m */; };
 		373092C11DD5A46800937485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373092BF1DD5A46800937485 /* Main.storyboard */; };
 		373092C31DD5A46800937485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373092C21DD5A46800937485 /* Assets.xcassets */; };
 		373092C61DD5A46800937485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373092C41DD5A46800937485 /* LaunchScreen.storyboard */; };
 		373092D11DD5A46800937485 /* AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092D01DD5A46800937485 /* AnimationTests.m */; };
 		373092DC1DD5A46800937485 /* AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092DB1DD5A46800937485 /* AnimationUITests.m */; };
-		37583DA01F44302400AFF8B3 /* 3DTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D971F44302400AFF8B3 /* 3DTransform.m */; };
-		37583DA11F44302400AFF8B3 /* Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D991F44302400AFF8B3 /* Shadow.m */; };
-		37583DA21F44302400AFF8B3 /* ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D9B1F44302400AFF8B3 /* ShadowPath.m */; };
-		37583DA31F44302400AFF8B3 /* TransformLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D9D1F44302400AFF8B3 /* TransformLight.m */; };
-		37583DA41F44302400AFF8B3 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37583D9F1F44302400AFF8B3 /* TransformViewController.m */; };
-		379D0D721DE149B600175BEF /* ZPositionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 379D0D711DE149B600175BEF /* ZPositionVC.m */; };
-		379D0D751DE1682400175BEF /* TouchInLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 379D0D741DE1682400175BEF /* TouchInLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,26 +52,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37063CF61F4C263900A92CD3 /* DrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
-		37063CF71F4C263900A92CD3 /* DrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
-		37063CF91F4D533300A92CD3 /* TransformLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformLayerVC.h; sourceTree = "<group>"; };
-		37063CFA1F4D533300A92CD3 /* TransformLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformLayerVC.m; sourceTree = "<group>"; };
-		37063CFC1F4D5A7C00A92CD3 /* GradientLayrVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLayrVC.h; sourceTree = "<group>"; };
-		37063CFD1F4D5A7C00A92CD3 /* GradientLayrVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLayrVC.m; sourceTree = "<group>"; };
-		37063CFF1F4D64E400A92CD3 /* ReplicatorLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerVC.h; sourceTree = "<group>"; };
-		37063D001F4D64E400A92CD3 /* ReplicatorLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerVC.m; sourceTree = "<group>"; };
-		37063D021F4D75BA00A92CD3 /* TiledLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledLayerVC.h; sourceTree = "<group>"; };
-		37063D031F4D75BA00A92CD3 /* TiledLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledLayerVC.m; sourceTree = "<group>"; };
-		37063D051F4D7CE300A92CD3 /* EmitterLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerVC.h; sourceTree = "<group>"; };
-		37063D061F4D7CE300A92CD3 /* EmitterLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerVC.m; sourceTree = "<group>"; };
-		37063D081F4D9EF000A92CD3 /* EaglLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaglLayerVC.h; sourceTree = "<group>"; };
-		37063D091F4D9EF000A92CD3 /* EaglLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaglLayerVC.m; sourceTree = "<group>"; };
+		37063D0E1F4E75F300A92CD3 /* shipin1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shipin1.mp4; sourceTree = "<group>"; };
+		37063D1E1F4EB80C00A92CD3 /* TransactionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionVC.h; sourceTree = "<group>"; };
+		37063D1F1F4EB80C00A92CD3 /* TransactionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionVC.m; sourceTree = "<group>"; };
+		37063D221F4EB81A00A92CD3 /* 3DTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3DTransform.h; sourceTree = "<group>"; };
+		37063D231F4EB81A00A92CD3 /* 3DTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 3DTransform.m; sourceTree = "<group>"; };
+		37063D241F4EB81A00A92CD3 /* AVplayerLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVplayerLayerVC.h; sourceTree = "<group>"; };
+		37063D251F4EB81A00A92CD3 /* AVplayerLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVplayerLayerVC.m; sourceTree = "<group>"; };
+		37063D261F4EB81A00A92CD3 /* DrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		37063D271F4EB81A00A92CD3 /* DrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		37063D281F4EB81A00A92CD3 /* EaglLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaglLayerVC.h; sourceTree = "<group>"; };
+		37063D291F4EB81A00A92CD3 /* EaglLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaglLayerVC.m; sourceTree = "<group>"; };
+		37063D2A1F4EB81A00A92CD3 /* EmitterLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerVC.h; sourceTree = "<group>"; };
+		37063D2B1F4EB81A00A92CD3 /* EmitterLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerVC.m; sourceTree = "<group>"; };
+		37063D2C1F4EB81A00A92CD3 /* GradientLayrVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLayrVC.h; sourceTree = "<group>"; };
+		37063D2D1F4EB81A00A92CD3 /* GradientLayrVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLayrVC.m; sourceTree = "<group>"; };
+		37063D2E1F4EB81A00A92CD3 /* ReplicatorLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerVC.h; sourceTree = "<group>"; };
+		37063D2F1F4EB81A00A92CD3 /* ReplicatorLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerVC.m; sourceTree = "<group>"; };
+		37063D301F4EB81A00A92CD3 /* Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shadow.h; sourceTree = "<group>"; };
+		37063D311F4EB81A00A92CD3 /* Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shadow.m; sourceTree = "<group>"; };
+		37063D321F4EB81A00A92CD3 /* ShadowPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowPath.h; sourceTree = "<group>"; };
+		37063D331F4EB81A00A92CD3 /* ShadowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowPath.m; sourceTree = "<group>"; };
+		37063D341F4EB81A00A92CD3 /* TiledLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledLayerVC.h; sourceTree = "<group>"; };
+		37063D351F4EB81A00A92CD3 /* TiledLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledLayerVC.m; sourceTree = "<group>"; };
+		37063D361F4EB81A00A92CD3 /* TouchInLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchInLayer.h; sourceTree = "<group>"; };
+		37063D371F4EB81A00A92CD3 /* TouchInLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchInLayer.m; sourceTree = "<group>"; };
+		37063D381F4EB81A00A92CD3 /* TransformLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformLayerVC.h; sourceTree = "<group>"; };
+		37063D391F4EB81A00A92CD3 /* TransformLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformLayerVC.m; sourceTree = "<group>"; };
+		37063D3A1F4EB81A00A92CD3 /* TransformLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformLight.h; sourceTree = "<group>"; };
+		37063D3B1F4EB81A00A92CD3 /* TransformLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformLight.m; sourceTree = "<group>"; };
+		37063D3C1F4EB81A00A92CD3 /* TransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		37063D3D1F4EB81A00A92CD3 /* TransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
+		37063D3E1F4EB81A00A92CD3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37063D3F1F4EB81A00A92CD3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37063D401F4EB81A00A92CD3 /* ZPositionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPositionVC.h; sourceTree = "<group>"; };
+		37063D411F4EB81A00A92CD3 /* ZPositionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPositionVC.m; sourceTree = "<group>"; };
 		373092B31DD5A46800937485 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373092B71DD5A46800937485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		373092B91DD5A46800937485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		373092BA1DD5A46800937485 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		373092BC1DD5A46800937485 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		373092BD1DD5A46800937485 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		373092C01DD5A46800937485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		373092C21DD5A46800937485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		373092C51DD5A46800937485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,20 +101,6 @@
 		373092D71DD5A46800937485 /* AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		373092DB1DD5A46800937485 /* AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationUITests.m; sourceTree = "<group>"; };
 		373092DD1DD5A46800937485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37583D961F44302400AFF8B3 /* 3DTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3DTransform.h; sourceTree = "<group>"; };
-		37583D971F44302400AFF8B3 /* 3DTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 3DTransform.m; sourceTree = "<group>"; };
-		37583D981F44302400AFF8B3 /* Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shadow.h; sourceTree = "<group>"; };
-		37583D991F44302400AFF8B3 /* Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shadow.m; sourceTree = "<group>"; };
-		37583D9A1F44302400AFF8B3 /* ShadowPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowPath.h; sourceTree = "<group>"; };
-		37583D9B1F44302400AFF8B3 /* ShadowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowPath.m; sourceTree = "<group>"; };
-		37583D9C1F44302400AFF8B3 /* TransformLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformLight.h; sourceTree = "<group>"; };
-		37583D9D1F44302400AFF8B3 /* TransformLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformLight.m; sourceTree = "<group>"; };
-		37583D9E1F44302400AFF8B3 /* TransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
-		37583D9F1F44302400AFF8B3 /* TransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
-		379D0D701DE149B600175BEF /* ZPositionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPositionVC.h; sourceTree = "<group>"; };
-		379D0D711DE149B600175BEF /* ZPositionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPositionVC.m; sourceTree = "<group>"; };
-		379D0D731DE1682400175BEF /* TouchInLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchInLayer.h; sourceTree = "<group>"; };
-		379D0D741DE1682400175BEF /* TouchInLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchInLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37063D1D1F4EB80C00A92CD3 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				37063D1E1F4EB80C00A92CD3 /* TransactionVC.h */,
+				37063D1F1F4EB80C00A92CD3 /* TransactionVC.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		37063D211F4EB81A00A92CD3 /* LayerVC */ = {
+			isa = PBXGroup;
+			children = (
+				37063D221F4EB81A00A92CD3 /* 3DTransform.h */,
+				37063D231F4EB81A00A92CD3 /* 3DTransform.m */,
+				37063D241F4EB81A00A92CD3 /* AVplayerLayerVC.h */,
+				37063D251F4EB81A00A92CD3 /* AVplayerLayerVC.m */,
+				37063D261F4EB81A00A92CD3 /* DrawingViewController.h */,
+				37063D271F4EB81A00A92CD3 /* DrawingViewController.m */,
+				37063D281F4EB81A00A92CD3 /* EaglLayerVC.h */,
+				37063D291F4EB81A00A92CD3 /* EaglLayerVC.m */,
+				37063D2A1F4EB81A00A92CD3 /* EmitterLayerVC.h */,
+				37063D2B1F4EB81A00A92CD3 /* EmitterLayerVC.m */,
+				37063D2C1F4EB81A00A92CD3 /* GradientLayrVC.h */,
+				37063D2D1F4EB81A00A92CD3 /* GradientLayrVC.m */,
+				37063D2E1F4EB81A00A92CD3 /* ReplicatorLayerVC.h */,
+				37063D2F1F4EB81A00A92CD3 /* ReplicatorLayerVC.m */,
+				37063D301F4EB81A00A92CD3 /* Shadow.h */,
+				37063D311F4EB81A00A92CD3 /* Shadow.m */,
+				37063D321F4EB81A00A92CD3 /* ShadowPath.h */,
+				37063D331F4EB81A00A92CD3 /* ShadowPath.m */,
+				37063D341F4EB81A00A92CD3 /* TiledLayerVC.h */,
+				37063D351F4EB81A00A92CD3 /* TiledLayerVC.m */,
+				37063D361F4EB81A00A92CD3 /* TouchInLayer.h */,
+				37063D371F4EB81A00A92CD3 /* TouchInLayer.m */,
+				37063D381F4EB81A00A92CD3 /* TransformLayerVC.h */,
+				37063D391F4EB81A00A92CD3 /* TransformLayerVC.m */,
+				37063D3A1F4EB81A00A92CD3 /* TransformLight.h */,
+				37063D3B1F4EB81A00A92CD3 /* TransformLight.m */,
+				37063D3C1F4EB81A00A92CD3 /* TransformViewController.h */,
+				37063D3D1F4EB81A00A92CD3 /* TransformViewController.m */,
+				37063D3E1F4EB81A00A92CD3 /* ViewController.h */,
+				37063D3F1F4EB81A00A92CD3 /* ViewController.m */,
+				37063D401F4EB81A00A92CD3 /* ZPositionVC.h */,
+				37063D411F4EB81A00A92CD3 /* ZPositionVC.m */,
+			);
+			path = LayerVC;
+			sourceTree = "<group>";
+		};
 		373092AA1DD5A46800937485 = {
 			isa = PBXGroup;
 			children = (
@@ -143,38 +199,11 @@
 		373092B51DD5A46800937485 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				37063D211F4EB81A00A92CD3 /* LayerVC */,
+				37063D1D1F4EB80C00A92CD3 /* Animation */,
 				373092B91DD5A46800937485 /* AppDelegate.h */,
 				373092BA1DD5A46800937485 /* AppDelegate.m */,
-				37583D961F44302400AFF8B3 /* 3DTransform.h */,
-				37583D971F44302400AFF8B3 /* 3DTransform.m */,
-				37583D981F44302400AFF8B3 /* Shadow.h */,
-				37583D991F44302400AFF8B3 /* Shadow.m */,
-				37583D9A1F44302400AFF8B3 /* ShadowPath.h */,
-				37583D9B1F44302400AFF8B3 /* ShadowPath.m */,
-				37583D9C1F44302400AFF8B3 /* TransformLight.h */,
-				37583D9D1F44302400AFF8B3 /* TransformLight.m */,
-				37583D9E1F44302400AFF8B3 /* TransformViewController.h */,
-				37583D9F1F44302400AFF8B3 /* TransformViewController.m */,
-				373092BC1DD5A46800937485 /* ViewController.h */,
-				373092BD1DD5A46800937485 /* ViewController.m */,
-				379D0D701DE149B600175BEF /* ZPositionVC.h */,
-				379D0D711DE149B600175BEF /* ZPositionVC.m */,
-				379D0D731DE1682400175BEF /* TouchInLayer.h */,
-				379D0D741DE1682400175BEF /* TouchInLayer.m */,
-				37063CF61F4C263900A92CD3 /* DrawingViewController.h */,
-				37063CF71F4C263900A92CD3 /* DrawingViewController.m */,
-				37063CF91F4D533300A92CD3 /* TransformLayerVC.h */,
-				37063CFA1F4D533300A92CD3 /* TransformLayerVC.m */,
-				37063CFC1F4D5A7C00A92CD3 /* GradientLayrVC.h */,
-				37063CFD1F4D5A7C00A92CD3 /* GradientLayrVC.m */,
-				37063CFF1F4D64E400A92CD3 /* ReplicatorLayerVC.h */,
-				37063D001F4D64E400A92CD3 /* ReplicatorLayerVC.m */,
-				37063D021F4D75BA00A92CD3 /* TiledLayerVC.h */,
-				37063D031F4D75BA00A92CD3 /* TiledLayerVC.m */,
-				37063D051F4D7CE300A92CD3 /* EmitterLayerVC.h */,
-				37063D061F4D7CE300A92CD3 /* EmitterLayerVC.m */,
-				37063D081F4D9EF000A92CD3 /* EaglLayerVC.h */,
-				37063D091F4D9EF000A92CD3 /* EaglLayerVC.m */,
+				37063D0E1F4E75F300A92CD3 /* shipin1.mp4 */,
 				373092BF1DD5A46800937485 /* Main.storyboard */,
 				373092C21DD5A46800937485 /* Assets.xcassets */,
 				373092C41DD5A46800937485 /* LaunchScreen.storyboard */,
@@ -272,6 +301,9 @@
 		373092AB1DD5A46800937485 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = WJ;
 				TargetAttributes = {
@@ -319,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37063D0F1F4E795C00A92CD3 /* shipin1.mp4 in Resources */,
 				373092C61DD5A46800937485 /* LaunchScreen.storyboard in Resources */,
 				373092C31DD5A46800937485 /* Assets.xcassets in Resources */,
 				373092C11DD5A46800937485 /* Main.storyboard in Resources */,
@@ -346,23 +379,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37583DA11F44302400AFF8B3 /* Shadow.m in Sources */,
-				379D0D721DE149B600175BEF /* ZPositionVC.m in Sources */,
-				37063CFE1F4D5A7C00A92CD3 /* GradientLayrVC.m in Sources */,
-				37583DA21F44302400AFF8B3 /* ShadowPath.m in Sources */,
-				379D0D751DE1682400175BEF /* TouchInLayer.m in Sources */,
-				37063D011F4D64E400A92CD3 /* ReplicatorLayerVC.m in Sources */,
-				37063CF81F4C263900A92CD3 /* DrawingViewController.m in Sources */,
-				373092BE1DD5A46800937485 /* ViewController.m in Sources */,
-				37583DA41F44302400AFF8B3 /* TransformViewController.m in Sources */,
-				37063D0A1F4D9EF000A92CD3 /* EaglLayerVC.m in Sources */,
-				37583DA01F44302400AFF8B3 /* 3DTransform.m in Sources */,
-				37063D041F4D75BA00A92CD3 /* TiledLayerVC.m in Sources */,
-				37063D071F4D7CE300A92CD3 /* EmitterLayerVC.m in Sources */,
+				37063D501F4EB81A00A92CD3 /* ViewController.m in Sources */,
+				37063D4C1F4EB81A00A92CD3 /* TouchInLayer.m in Sources */,
+				37063D431F4EB81A00A92CD3 /* AVplayerLayerVC.m in Sources */,
+				37063D451F4EB81A00A92CD3 /* EaglLayerVC.m in Sources */,
+				37063D201F4EB80C00A92CD3 /* TransactionVC.m in Sources */,
+				37063D461F4EB81A00A92CD3 /* EmitterLayerVC.m in Sources */,
 				373092BB1DD5A46800937485 /* AppDelegate.m in Sources */,
+				37063D491F4EB81A00A92CD3 /* Shadow.m in Sources */,
+				37063D4F1F4EB81A00A92CD3 /* TransformViewController.m in Sources */,
+				37063D4A1F4EB81A00A92CD3 /* ShadowPath.m in Sources */,
+				37063D481F4EB81A00A92CD3 /* ReplicatorLayerVC.m in Sources */,
 				373092B81DD5A46800937485 /* main.m in Sources */,
-				37583DA31F44302400AFF8B3 /* TransformLight.m in Sources */,
-				37063CFB1F4D533300A92CD3 /* TransformLayerVC.m in Sources */,
+				37063D471F4EB81A00A92CD3 /* GradientLayrVC.m in Sources */,
+				37063D511F4EB81A00A92CD3 /* ZPositionVC.m in Sources */,
+				37063D421F4EB81A00A92CD3 /* 3DTransform.m in Sources */,
+				37063D441F4EB81A00A92CD3 /* DrawingViewController.m in Sources */,
+				37063D4B1F4EB81A00A92CD3 /* TiledLayerVC.m in Sources */,
+				37063D4D1F4EB81A00A92CD3 /* TransformLayerVC.m in Sources */,
+				37063D4E1F4EB81A00A92CD3 /* TransformLight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
