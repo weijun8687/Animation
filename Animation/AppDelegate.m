@@ -24,6 +24,7 @@
 #import "EaglLayerVC.h"
 #import "AVplayerLayerVC.h"
 #import "TransactionVC.h"
+#import "KeyFrameAnimationVC.h"
 
 @interface AppDelegate ()
 
@@ -38,7 +39,7 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [TransactionVC new];
+    self.window.rootViewController = [KeyFrameAnimationVC new];
     [self.window makeKeyAndVisible];
     
     

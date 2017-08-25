@@ -57,29 +57,41 @@
 
 }
 
-
-// 变色(1s)完成之后 再旋转 (0.25s)
+// 修改 Transition 的 actions(字典) 改变动画效果
 - (void)changeColor{
     
-    [CATransaction begin];
-    [CATransaction setAnimationDuration:1.0];
-    
-    // 禁用动画
-//    [CATransaction setDisableActions:YES];
-    
-    
-    [CATransaction setCompletionBlock:^{
-        CGAffineTransform transform = self.colorLayer.affineTransform;
-        transform = CGAffineTransformRotate(transform, M_PI_2);
-        self.colorLayer.affineTransform = transform;
-    }];
-    
+    CATransition *transition = [CATransition animation];
+    transition.type = kCATransitionPush;
+    transition.subtype = kCATransitionFromLeft;     // 色块从左侧滑入
+    self.colorLayer.actions = @{@"backgroundColor": transition};
     CGFloat red = arc4random() / (CGFloat)INT_MAX;
     CGFloat blue = arc4random() / (CGFloat)INT_MAX;
     CGFloat green = arc4random() / (CGFloat)INT_MAX;
     self.colorLayer.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0].CGColor;
-    [CATransaction commit];
 }
+
+//// 变色(1s)完成之后 再旋转 (0.25s)
+//- (void)changeColor{
+//    
+//    [CATransaction begin];
+//    [CATransaction setAnimationDuration:1.0];
+//    
+//    // 禁用动画
+////    [CATransaction setDisableActions:YES];
+//    
+//    
+//    [CATransaction setCompletionBlock:^{
+//        CGAffineTransform transform = self.colorLayer.affineTransform;
+//        transform = CGAffineTransformRotate(transform, M_PI_2);
+//        self.colorLayer.affineTransform = transform;
+//    }];
+//    
+//    CGFloat red = arc4random() / (CGFloat)INT_MAX;
+//    CGFloat blue = arc4random() / (CGFloat)INT_MAX;
+//    CGFloat green = arc4random() / (CGFloat)INT_MAX;
+//    self.colorLayer.backgroundColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0].CGColor;
+//    [CATransaction commit];
+//}
 
 
 
