@@ -26,6 +26,7 @@
 		37063D501F4EB81A00A92CD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D3F1F4EB81A00A92CD3 /* ViewController.m */; };
 		37063D511F4EB81A00A92CD3 /* ZPositionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D411F4EB81A00A92CD3 /* ZPositionVC.m */; };
 		37063D541F4FFBEF00A92CD3 /* KeyFrameAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D531F4FFBEF00A92CD3 /* KeyFrameAnimationVC.m */; };
+		37063D571F5033D700A92CD3 /* AnimationGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37063D561F5033D700A92CD3 /* AnimationGroupVC.m */; };
 		373092B81DD5A46800937485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092B71DD5A46800937485 /* main.m */; };
 		373092BB1DD5A46800937485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092BA1DD5A46800937485 /* AppDelegate.m */; };
 		373092C11DD5A46800937485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373092BF1DD5A46800937485 /* Main.storyboard */; };
@@ -90,6 +91,8 @@
 		37063D411F4EB81A00A92CD3 /* ZPositionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPositionVC.m; sourceTree = "<group>"; };
 		37063D521F4FFBEF00A92CD3 /* KeyFrameAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationVC.h; sourceTree = "<group>"; };
 		37063D531F4FFBEF00A92CD3 /* KeyFrameAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationVC.m; sourceTree = "<group>"; };
+		37063D551F5033D700A92CD3 /* AnimationGroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationGroupVC.h; sourceTree = "<group>"; };
+		37063D561F5033D700A92CD3 /* AnimationGroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationGroupVC.m; sourceTree = "<group>"; };
 		373092B31DD5A46800937485 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373092B71DD5A46800937485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		373092B91DD5A46800937485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				37063D1F1F4EB80C00A92CD3 /* TransactionVC.m */,
 				37063D521F4FFBEF00A92CD3 /* KeyFrameAnimationVC.h */,
 				37063D531F4FFBEF00A92CD3 /* KeyFrameAnimationVC.m */,
+				37063D551F5033D700A92CD3 /* AnimationGroupVC.h */,
+				37063D561F5033D700A92CD3 /* AnimationGroupVC.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				37063D421F4EB81A00A92CD3 /* 3DTransform.m in Sources */,
 				37063D441F4EB81A00A92CD3 /* DrawingViewController.m in Sources */,
 				37063D4B1F4EB81A00A92CD3 /* TiledLayerVC.m in Sources */,
+				37063D571F5033D700A92CD3 /* AnimationGroupVC.m in Sources */,
 				37063D4D1F4EB81A00A92CD3 /* TransformLayerVC.m in Sources */,
 				37063D4E1F4EB81A00A92CD3 /* TransformLight.m in Sources */,
 			);
