@@ -26,6 +26,7 @@
 #import "TransactionVC.h"
 #import "KeyFrameAnimationVC.h"
 #import "AnimationGroupVC.h"
+#import "StopAnimation.h"
 
 @interface AppDelegate ()
 
@@ -40,7 +41,7 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [AnimationGroupVC new];
+    self.window.rootViewController = [StopAnimation new];
     [self.window makeKeyAndVisible];
     
     

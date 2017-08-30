@@ -34,6 +34,8 @@
 		373092C61DD5A46800937485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373092C41DD5A46800937485 /* LaunchScreen.storyboard */; };
 		373092D11DD5A46800937485 /* AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092D01DD5A46800937485 /* AnimationTests.m */; };
 		373092DC1DD5A46800937485 /* AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092DB1DD5A46800937485 /* AnimationUITests.m */; };
+		3769779B1F56563800E4ECDD /* StopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769779A1F56563800E4ECDD /* StopAnimation.m */; };
+		3769779E1F56BFAA00E4ECDD /* PanGestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769779D1F56BFAA00E4ECDD /* PanGestureVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,10 @@
 		373092D71DD5A46800937485 /* AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		373092DB1DD5A46800937485 /* AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationUITests.m; sourceTree = "<group>"; };
 		373092DD1DD5A46800937485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376977991F56563800E4ECDD /* StopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopAnimation.h; sourceTree = "<group>"; };
+		3769779A1F56563800E4ECDD /* StopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopAnimation.m; sourceTree = "<group>"; };
+		3769779C1F56BFAA00E4ECDD /* PanGestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureVC.h; sourceTree = "<group>"; };
+		3769779D1F56BFAA00E4ECDD /* PanGestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,10 @@
 				37063D531F4FFBEF00A92CD3 /* KeyFrameAnimationVC.m */,
 				37063D551F5033D700A92CD3 /* AnimationGroupVC.h */,
 				37063D561F5033D700A92CD3 /* AnimationGroupVC.m */,
+				376977991F56563800E4ECDD /* StopAnimation.h */,
+				3769779A1F56563800E4ECDD /* StopAnimation.m */,
+				3769779C1F56BFAA00E4ECDD /* PanGestureVC.h */,
+				3769779D1F56BFAA00E4ECDD /* PanGestureVC.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -395,10 +405,12 @@
 				37063D451F4EB81A00A92CD3 /* EaglLayerVC.m in Sources */,
 				37063D201F4EB80C00A92CD3 /* TransactionVC.m in Sources */,
 				37063D541F4FFBEF00A92CD3 /* KeyFrameAnimationVC.m in Sources */,
+				3769779B1F56563800E4ECDD /* StopAnimation.m in Sources */,
 				37063D461F4EB81A00A92CD3 /* EmitterLayerVC.m in Sources */,
 				373092BB1DD5A46800937485 /* AppDelegate.m in Sources */,
 				37063D491F4EB81A00A92CD3 /* Shadow.m in Sources */,
 				37063D4F1F4EB81A00A92CD3 /* TransformViewController.m in Sources */,
+				3769779E1F56BFAA00E4ECDD /* PanGestureVC.m in Sources */,
 				37063D4A1F4EB81A00A92CD3 /* ShadowPath.m in Sources */,
 				37063D481F4EB81A00A92CD3 /* ReplicatorLayerVC.m in Sources */,
 				373092B81DD5A46800937485 /* main.m in Sources */,

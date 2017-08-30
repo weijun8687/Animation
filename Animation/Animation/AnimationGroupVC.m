@@ -100,12 +100,12 @@
 //    CATransition *transition = [CATransition animation];
 //    transition.type = kCATransitionFade;
 //    transition.duration = 2.0;
-//    [self.imageView.layer addAnimation:transition forKey:nil];
-//    
-    self.index = self.index % self.arrImages.count;
-//
+//    [self.imageView.layer addAnimation:transition forKey:nil];   
+//    self.index = self.index % self.arrImages.count;
 //    [self.imageView setImage:[UIImage imageNamed:self.arrImages[self.index]]];
     
+    
+    self.index = self.index % self.arrImages.count;
     [UIView transitionWithView:self.imageView duration:2.0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
         
         self.imageView.image = [UIImage imageNamed:self.arrImages[self.index]];
