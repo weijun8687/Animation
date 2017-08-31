@@ -36,6 +36,8 @@
 		373092DC1DD5A46800937485 /* AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373092DB1DD5A46800937485 /* AnimationUITests.m */; };
 		3769779B1F56563800E4ECDD /* StopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769779A1F56563800E4ECDD /* StopAnimation.m */; };
 		3769779E1F56BFAA00E4ECDD /* PanGestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769779D1F56BFAA00E4ECDD /* PanGestureVC.m */; };
+		376977A11F57B86F00E4ECDD /* MediaTimingFunctionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 376977A01F57B86F00E4ECDD /* MediaTimingFunctionVC.m */; };
+		376977A41F57E4CE00E4ECDD /* BallAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 376977A31F57E4CE00E4ECDD /* BallAnimationVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,10 @@
 		3769779A1F56563800E4ECDD /* StopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopAnimation.m; sourceTree = "<group>"; };
 		3769779C1F56BFAA00E4ECDD /* PanGestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureVC.h; sourceTree = "<group>"; };
 		3769779D1F56BFAA00E4ECDD /* PanGestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureVC.m; sourceTree = "<group>"; };
+		3769779F1F57B86F00E4ECDD /* MediaTimingFunctionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTimingFunctionVC.h; sourceTree = "<group>"; };
+		376977A01F57B86F00E4ECDD /* MediaTimingFunctionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTimingFunctionVC.m; sourceTree = "<group>"; };
+		376977A21F57E4CE00E4ECDD /* BallAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallAnimationVC.h; sourceTree = "<group>"; };
+		376977A31F57E4CE00E4ECDD /* BallAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallAnimationVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,10 @@
 				3769779A1F56563800E4ECDD /* StopAnimation.m */,
 				3769779C1F56BFAA00E4ECDD /* PanGestureVC.h */,
 				3769779D1F56BFAA00E4ECDD /* PanGestureVC.m */,
+				3769779F1F57B86F00E4ECDD /* MediaTimingFunctionVC.h */,
+				376977A01F57B86F00E4ECDD /* MediaTimingFunctionVC.m */,
+				376977A21F57E4CE00E4ECDD /* BallAnimationVC.h */,
+				376977A31F57E4CE00E4ECDD /* BallAnimationVC.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -400,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37063D501F4EB81A00A92CD3 /* ViewController.m in Sources */,
+				376977A11F57B86F00E4ECDD /* MediaTimingFunctionVC.m in Sources */,
 				37063D4C1F4EB81A00A92CD3 /* TouchInLayer.m in Sources */,
 				37063D431F4EB81A00A92CD3 /* AVplayerLayerVC.m in Sources */,
 				37063D451F4EB81A00A92CD3 /* EaglLayerVC.m in Sources */,
@@ -416,6 +427,7 @@
 				373092B81DD5A46800937485 /* main.m in Sources */,
 				37063D471F4EB81A00A92CD3 /* GradientLayrVC.m in Sources */,
 				37063D511F4EB81A00A92CD3 /* ZPositionVC.m in Sources */,
+				376977A41F57E4CE00E4ECDD /* BallAnimationVC.m in Sources */,
 				37063D421F4EB81A00A92CD3 /* 3DTransform.m in Sources */,
 				37063D441F4EB81A00A92CD3 /* DrawingViewController.m in Sources */,
 				37063D4B1F4EB81A00A92CD3 /* TiledLayerVC.m in Sources */,

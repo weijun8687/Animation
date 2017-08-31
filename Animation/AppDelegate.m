@@ -27,6 +27,9 @@
 #import "KeyFrameAnimationVC.h"
 #import "AnimationGroupVC.h"
 #import "StopAnimation.h"
+#import "PanGestureVC.h"
+#import "MediaTimingFunctionVC.h"
+#import "BallAnimationVC.h"
 
 @interface AppDelegate ()
 
@@ -41,7 +44,7 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [StopAnimation new];
+    self.window.rootViewController = [BallAnimationVC new];
     [self.window makeKeyAndVisible];
     
     
